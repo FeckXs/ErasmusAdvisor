@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Varsity';
+    src: url('varsity_regular.ttf');
+}
+
+*
+{
+	font-family: trebuchet, verdana, arial, serif;
+	color: lightgrey;
+}
+
+body
+{
+	background: url("logoHD.png") no-repeat top left, url("yeptech.png") no-repeat top right, url("fond.jpg") no-repeat fixed center;
+	background-size: 250px, 250px, 1440px;
+	background-position: 15px 15px, 1075px 20px, 0px 0px;
+}
+
+h1
+{
+	color: black;
+	font-size: 2em;
+	font-family: verdana;
+	text-align: center;
+}
+
+.gras
+{
+	font-weight: bold;
+	color: darkred;
+	text-decoration: underline;
+}
+
+.intro
+{
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.fpms
+{
+	color: darkblue;
+}
+
+.adv
+{
+	color: darkgreen;
+}
+
+h2
+{
+	font-family: verdana;
+	font-size: 1.5em;
+	color: grey;
+	text-shadow: 4px 4px 4px black;
+}
+
+.umons
+{
+	color: darkred;
+}
+
+#photo
+{
+	color: black;
+	font-size: 0.8em;
+	text-align: center;
+}
