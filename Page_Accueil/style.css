@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'Varsity';
-    src: url('varsity_regular.ttf');
-}
-
 *
 {
 	font-family: trebuchet, verdana, arial, serif;
@@ -11,9 +6,8 @@
 
 body
 {
-	background: url("logoHD.png") no-repeat top left, url("yeptech.png") no-repeat top right, url("fond.jpg") no-repeat fixed center;
-	background-size: 250px, 250px, 1440px;
-	background-position: 15px 15px, 1075px 20px, 0px 0px;
+	background: url("logoHD.png") no-repeat top left, url("umons.png") no-repeat top right, url("fond.jpg") no-repeat fixed center;
+	background-size: 12%, 12%, 100%;
 }
 
 h1
