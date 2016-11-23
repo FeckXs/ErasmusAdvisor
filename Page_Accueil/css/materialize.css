@@ -2750,8 +2750,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: auto;
-  height: 1080px;
-  width: 1920px;
+  height: 950px;
 }
 
 .parallax {
@@ -4010,7 +4009,7 @@ input[type=range] + .thumb {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: teal;
   width: 100%;
   height: 56px;
   line-height: 56px;

@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 
 
-
 <html>
-
-
 
 	<head>
 
@@ -17,6 +14,7 @@
       	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 		<meta charset="utf-8"/>
+
 		<title>ErasmusAdvisor : L'Erasmus c'est simple comme bonjour !</title>
 
 	</head>
@@ -25,21 +23,87 @@
 
 	<body>
 
+		<div class="parallax-container">
 
-    	<div class="parallax-container">							<!-- Me permet d'afficher le background (tower bridge) du site -->
-      		<div class="parallax"><img src="fond.jpg"></div>
+			<header>
 
-		<h1>Page d'accueil</h1>
-		<br/>
-		<p class="white-text">Ce site est spécialement dédié aux étudiants dans le but de faciliter l'organisation et la planification de leurs voyages ERASMUS -- développé à la Faculté Polytechnique de Mons (Umons).</p>
-		<br/>
+	    		<!-- Placez ici le contenu de l'en-tête de votre page -->
 
+	    								
+	      		
+	      			<div class="parallax"><img src="fond.jpg"></div>		<!-- Me permet d'afficher le background (tower bridge) du site -->
+
+					<h1>Page d'accueil</h1>
+				
+					<p class="white-text">Ce site est spécialement dédié aux étudiants dans le but de faciliter l'organisation et la planification de leurs voyages ERASMUS -- développé à la Faculté Polytechnique de Mons (Umons).</p>
+		
+
+			</header>
+
+				<ul id="dropdown1" class="dropdown-content">		<!-- Définition du dropdown -->
+				  <li><a href="#!">one</a></li>
+				  <li><a href="#!">two</a></li>
+				  <li class="divider"></li>
+				  <li><a href="#!">three</a></li>
+				</ul>
+
+			<nav>
+
+				<!-- Zone de défintion de la navbar -->
+				
+			
+				  <div class="nav-wrapper">
+
+				    <a class="brand-logo" href="LogoHD.png"></a>
+
+				    <ul class="right hide-on-med-and-down">
+
+				       <li><a href="sass.html">Sass</a></li>
+				       <li><a href="badges.html">Components</a></li>
+
+				       <!-- Dropdown Trigger -->
+				       <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+
+				    </ul>
+
+				  </div>
+		
+
+			</nav>
+
+			<section>
+
+	    		<h1>Ma section de page</h1>
+
+	    		<p class="white-text">Bla bla bla bla</p>
+
+	    		<aside>
+                	<h1>À propos de l'auteur</h1>
+                	<p class="white-text">C'est moi, Raptor Jésus ! Je suis né le 25 décembre de l'an 0 de notre ère.</p>
+            	</aside>
+
+	    		<article>                
+	                <h1>Article</h1>
+	                <p class="white-text">Bla bla bla bla (texte de l'article)</p>
+	            </article>
+
+			</section>
+
+	      	<footer>
+
+	    		<!-- Placez ici le contenu du pied de page -->
+
+	    		<p class="white-text">Copyright Umons - Tous droits réservés<br />
+	            <a href="#">Nous contacter !</a></p>
+
+			</footer>
+
+		</div>
 
 		<!--Import jQuery before materialize.js-->
-      	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      	<script type="text/javascript" src="js/materialize.js"></script>
 
-      	</div>
+	     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	     <script type="text/javascript" src="js/materialize.js"></script>
 
 	</body>
 
