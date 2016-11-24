@@ -2755,7 +2755,7 @@ video.responsive-video {
 
 .parallax {
   position: absolute;
-  top: 0;
+  top: 64px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -2868,7 +2868,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: darkgrey;
+  background-color: #0d47a1;
 }
 
 footer.page-footer .footer-copyright {
@@ -4009,7 +4009,7 @@ input[type=range] + .thumb {
 
 nav {
   color: #fff;
-  background-color: darkgrey;
+  background-color: #0d47a1;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4155,7 +4155,7 @@ nav .input-field {
 
 nav .input-field input {
   height: 100%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: none;
   padding-left: 2rem;
 }
